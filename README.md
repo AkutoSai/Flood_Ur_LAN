@@ -1,3 +1,6 @@
+# Disclaimer 
+This tool is only for educational purpose. Use it at your own risk.
+
 # Flood_Ur_LAN
 Perform Denial of Service on LAN
 
