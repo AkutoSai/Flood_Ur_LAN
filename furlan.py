@@ -3,7 +3,8 @@ logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
 import sys
 import random
-                             
+
+"""                             
 print( ▄▄▄       ██ ▄█▀ █    ██ ▄▄▄█████▓ ▒█████       ██████  ▄▄▄       ██▓)
 print(▒████▄     ██▄█▒  ██  ▓██▒▓  ██▒ ▓▒▒██▒  ██▒   ▒██    ▒ ▒████▄    ▓██▒)
 print(▒██  ▀█▄  ▓███▄░ ▓██  ▒██░▒ ▓██░ ▒░▒██░  ██▒   ░ ▓██▄   ▒██  ▀█▄  ▒██▒)
@@ -13,6 +14,7 @@ print( ▒▒   ▓▒█░▒ ▒▒ ▓▒░▒▓▒ ▒ ▒   ▒ ░░  
 print(  ▒   ▒▒ ░░ ░▒ ▒░░░▒░ ░ ░     ░      ░ ▒ ▒░    ░ ░▒  ░ ░  ▒   ▒▒ ░ ▒ ░)
 print(  ░   ▒   ░ ░░ ░  ░░░ ░ ░   ░      ░ ░ ░ ▒     ░  ░  ░    ░   ▒    ▒ ░)
 print(      ░  ░░  ░      ░                  ░ ░           ░        ░  ░ ░  )  
+"""
 
 a = 1
 
@@ -32,7 +34,7 @@ try:
 	    except socket.error:
 		pass
 
-	    send(packet, inter = 0.0000000001, verbose = 0, iface = interface)
+	    send(packet, inter = 0.0000000001, verbose = 0, iface = interface) #You can turn on verbose output if you want but it wil just print star(*).
 
 	    print "*",
 	    a = a+1
