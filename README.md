@@ -8,5 +8,5 @@ Perform Denial of Service on LAN
 chmod +x furlan.py
 
 # To run:
-1) First dock your LAN cable into yout PC
+1) First Insert your LAN cable into yout PC
 2) python furlan.py
